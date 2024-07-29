@@ -29,8 +29,8 @@ function App() {
             </div>
             <button id='add-todo-btn' onClick={clickedtodo}>Add Todo</button>
             <hr></hr>
-            <p id='incr-btn'>Count: <button id='incr-cnt' onClick={clickedcount}>{count}+</button></p>
-            <h2 id='item-jumbotron'>Expensive Calculation</h2>
+            <p id='incr-btn'>Count: <button id='incr-cnt' onClick={clickedcount}>{count}</button></p>
+            <h2 id='item-jumbotron'>jumbotron</h2>
             <p id='calc'>1000000000</p>
             <hr></hr>
             <hr></hr>
