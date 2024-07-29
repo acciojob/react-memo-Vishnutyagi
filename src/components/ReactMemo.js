@@ -13,7 +13,7 @@ function ReactMemo() {
   return (
     <div>
         <input id='skill-input' type='text' onChange={changed}></input>
-        <button onClick={clicked}>Add Slill</button>
+        <button id='skill-btn' onClick={clicked}>Add Slill</button>
         <ul>
             {
                 list.map((val)=>{

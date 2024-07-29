@@ -23,13 +23,13 @@ function App() {
             <div>
                 {
                     todo.map((val)=>{
-                        return <p>{val}</p>;
+                        return <p id='todo-0'>{val}</p>;
                     })
                 }
             </div>
             <button id='add-todo-btn' onClick={clickedtodo}>Add Todo</button>
             <hr></hr>
-            <p>Count: {count}<button id='incr-cnt' onClick={clickedcount}>+</button></p>
+            <p>Count: <button id='incr-cnt' onClick={clickedcount}>{count}+</button></p>
             <h2>Expensive Calculation</h2>
             <p>1000000000</p>
             <hr></hr>
