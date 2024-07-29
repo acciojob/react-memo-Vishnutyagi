@@ -6,8 +6,10 @@ import { useState,useMemo } from 'react'
 function App() {
     const [todo,setTodo]=useState([]);
     const [task,setTask]=useState([]);
-    const [count,setCount]=useState(1);
+    const [count,setCount]=useState(0);
     const [todoname,setTodoname]=useState("New Todo");
+    // const calculation = useMemo(() => clickedcount(), [count]);
+
     const clickedtodo=(e)=>{
         setTodo([...todo,todoname]);
         e.preventDefault();
