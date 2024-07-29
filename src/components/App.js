@@ -37,7 +37,7 @@ function App() {
       <hr />
       <p id='incr-cnt'>Count: {count}</p>
       <button id='incr-btn' onClick={clickedcount}>Increment Count</button>
-      <h2 id='item-jumbotron'>Jumbotron</h2>
+      <h2 id='item-jumbotron'>jumbotron</h2>
       <p id='calc'>{expensiveCalculation}</p>
       <hr />
       <ReactMemo />
