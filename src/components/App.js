@@ -17,7 +17,7 @@ function App() {
         e.preventDefault();
     }
     return (
-        <div>
+        <div id="main">
             <useMemo/>
             <h2>My todos</h2>
             <div>
@@ -27,9 +27,9 @@ function App() {
                     })
                 }
             </div>
-            <button onClick={clickedtodo}>Add Todo</button>
+            <button id='add-todo-btn' onClick={clickedtodo}>Add Todo</button>
             <hr></hr>
-            <p>Count: {count}<button onClick={clickedcount}>+</button></p>
+            <p>Count: {count}<button id='incr-cnt' onClick={clickedcount}>+</button></p>
             <h2>Expensive Calculation</h2>
             <p>1000000000</p>
             <hr></hr>

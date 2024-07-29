@@ -12,7 +12,7 @@ function ReactMemo() {
     }
   return (
     <div>
-        <input type='text' onChange={changed}></input>
+        <input id='skill-input' type='text' onChange={changed}></input>
         <button onClick={clicked}>Add Slill</button>
         <ul>
             {
