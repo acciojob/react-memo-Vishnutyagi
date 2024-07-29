@@ -31,7 +31,7 @@ function App() {
             <hr></hr>
             <p>Count: <button id='incr-cnt' onClick={clickedcount}>{count}+</button></p>
             <h2>Expensive Calculation</h2>
-            <p>1000000000</p>
+            <p id='calc'>1000000000</p>
             <hr></hr>
             <hr></hr>
             <ReactMemo/>

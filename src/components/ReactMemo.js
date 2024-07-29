@@ -6,7 +6,7 @@ function ReactMemo() {
     const changed=(e)=>{
         setName(e.target.value);
     }
-    const clicked=()=>{
+    const clicked=(e)=>{
         if(name.length>=5) setList([...list,name]);
         e.preventDefault();
     }
